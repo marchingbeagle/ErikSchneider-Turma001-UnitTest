@@ -9,6 +9,7 @@ class Banco {
   depositar(valor) {
     this.saldo += valor;
     this.transacoes.push({ tipo: "Depósito", valor });
+    console.log("teste");
     return this.saldo;
   }
 
